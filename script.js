@@ -89,10 +89,10 @@ function Rain() {
 
     
     if (soundRain.classList.length > 1) {
-        AudioForest.play()
+        audioRain.play()
 
     } else {
-        AudioForest.pause()
+        audioRain.pause()
     }
 
 
@@ -102,14 +102,22 @@ function coffeeShop() {
     soundCoffeeShop.classList.toggle('buttonOn')
     soundCoffeeShop2.classList.toggle('buttonOn')
 
-    if(coffeeShop.classList.length > 1){
-        audioco
+    if(soundCoffeeShop.classList.length > 1){
+        audioCoffeeShop.play()
+    }else{
+        audioCoffeeShop.pause()
     }
 
 }
 function fireplace() {
     soundFirePlace.classList.toggle('buttonOn')
     soundFirePlace2.classList.toggle('buttonOn')
+
+    if(soundFirePlace.classList.length > 1){
+        audioFireplace.play()
+    }else{
+        audioFireplace.pause()
+    }
 
 }
 
@@ -177,9 +185,10 @@ function removeTime() {
 const PressAudio = new Audio("./sounds/button-press.wav")
 const StopAudio = new Audio("./sounds/stop-sound.mp3")
 const audioForest = new Audio("./sounds/forest.wav")
-const audioForest = new Audio("./sounds/forest.wav")
-const audioForest = new Audio("./sounds/forest.wav")
-const audioForest = new Audio("./sounds/forest.wav")
+const audioRain = new Audio("./sounds/rain.wav")
+const audioCoffeeShop = new Audio("./sounds/coffeeShop.wav")
+const audioFireplace = new Audio("./sounds/fireplace.wav")
+
 
 
 function pressButton() {
