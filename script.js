@@ -76,9 +76,9 @@ function forest() {
     soundForest2.classList.toggle('buttonOn')
     // sei que não está perfeito, mais foi a solução que encontrei para mudar o icone do botão.
 
-    if(soundForest.classList.length > 1){
+    if (soundForest.classList.length > 1) {
         audioForest.play()
-    }else{
+    } else {
         audioForest.pause()
     }
 
@@ -87,7 +87,7 @@ function Rain() {
     soundRain.classList.toggle('buttonOn')
     soundRain2.classList.toggle('buttonOn')
 
-    
+
     if (soundRain.classList.length > 1) {
         audioRain.play()
 
@@ -102,9 +102,9 @@ function coffeeShop() {
     soundCoffeeShop.classList.toggle('buttonOn')
     soundCoffeeShop2.classList.toggle('buttonOn')
 
-    if(soundCoffeeShop.classList.length > 1){
+    if (soundCoffeeShop.classList.length > 1) {
         audioCoffeeShop.play()
-    }else{
+    } else {
         audioCoffeeShop.pause()
     }
 
@@ -113,9 +113,9 @@ function fireplace() {
     soundFirePlace.classList.toggle('buttonOn')
     soundFirePlace2.classList.toggle('buttonOn')
 
-    if(soundFirePlace.classList.length > 1){
+    if (soundFirePlace.classList.length > 1) {
         audioFireplace.play()
-    }else{
+    } else {
         audioFireplace.pause()
     }
 
@@ -146,7 +146,7 @@ function countdown() {
         }
 
         if (seconds <= 0) {
-            seconds = 2
+            seconds = 60
             --minutes
 
         }
