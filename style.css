@@ -72,15 +72,11 @@ aside button {
     cursor: pointer;
 }
 
-.sounds .buttonOn  {
+.buttonOn {
     background: var(--btn-selected-background);
-    fill: white;
+    fill: var(--btn-background);
+   
 }
-
-svg path .buttonOn {
-    background: var(--btn-selected-background);
-    
-} 
 
 
 .sounds {
