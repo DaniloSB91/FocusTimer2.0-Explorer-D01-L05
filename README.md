@@ -1,17 +1,17 @@
 # FocusTimer2.0-Explorer-D01-L05
 Desafio FocusTimer - Versão 2.0 - Rocketseat Explorer Desafio 01 e Level 05
 
-Cada card que se encontra do lado direito, quando selecionado, vai mudar de cor e emitir um som diferente. Os sons você pode encontrar, respectivamente, nos links abaixo:
+Cada card que se encontra do lado direito, quando selecionado, vai mudar de cor e emitir um som diferente.
 
-[**Floresta**](https://drive.google.com/file/d/1CRHkV72WUMdcqec5GT_KdsqFz0z3VAOA/view)
+Floresta
 
-[**Chuva**](https://drive.google.com/file/d/1Ip8xBqAUJ-bty51Wz8JBtX_bWXCgA0P2/view)
+Chuva
 
-[**Cafeteria**](https://drive.google.com/file/d/1OxLKpCwg2wrxXFNUHgZxJ51QEt0ac5RA/view)
+Cafeteria
 
-[**Lareira**](https://drive.google.com/file/d/1MakaBPxJvTa_whaSM3kEbRcxiVd1GRCB/view)
+Lareira
 
-Funcionalidades esperadas dos botões:
+Funcionalidades dos botões:
 
 - Play   : aciona o timer;
 - Stop   : para o timer;
