@@ -17,3 +17,6 @@ Funcionalidades esperadas dos botões:
 - Stop   : para o timer;
 - +    : aumenta em mais 5 minutos o tempo do timer;
 - -    : diminui em 5 minutos o tempo do timer.
+
+
+https://github.com/DaniloSB91/FocusTimer2.0-Explorer-D01-L05/blob/main/video%20FocusTimer%202.0.mp4
